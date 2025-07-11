@@ -5,7 +5,7 @@ import toast, { Toaster } from "react-hot-toast";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
 import Loader from "../Loader/Loader";
-import ErrorMessage from "../ErrorMassage/ErrorMassage";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import { fetchMovies } from "../../services/movieService";
 
 export default function App() {
